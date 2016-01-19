@@ -9,11 +9,15 @@ generating the first n Fibonacci numbers F(n), printing ...
 - ... "BuzzFizz" when F(n) is prime.
 - ... the value F(n) otherwise.
 
+Programming language used: Python
+
 # How to run:
 Call the function F() in Fib.py:
+
 python -c 'import Fib; Fib.F(n)'
 
 Example - To get F(8):
+
 python -c 'import Fib; Fib.F(8)'
 
 # How to test:
@@ -22,21 +26,18 @@ To test the program:
         
 5 tests included in the set
 
-1.
-        F(0)
+1.      > F(0)
 
-2.
-        F(-3)
+2.      > F(-3)
         'Invalid value, try again.'
 
-3.
-        F(5.2)
+3.      > F(5.2)
         'Invalid value, try again.'
 
-4.      F(1)
+4.      > F(1)
         0
 
-5.      F(10)
+5.      > F(10)
         0
         1
         1
