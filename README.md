@@ -12,16 +12,17 @@ generating the first n Fibonacci numbers F(n), printing ...
 Programming language used: Python
 
 # How to run:
-Call the function F() in Fib.py:
+From bash terminal, call the function F() in Fib.py:
 
-python -c 'import Fib; Fib.F(n)'
+        python -c 'import Fib; Fib.F(n)'
 
 Example - To get F(8):
 
-python -c 'import Fib; Fib.F(8)'
+        python -c 'import Fib; Fib.F(8)'
 
 # How to test:
-To test the program:
+To test the program doctest is used:
+
         python -m doctest -v Fib.py
         
 5 tests included in the set
