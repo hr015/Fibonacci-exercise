@@ -11,31 +11,32 @@ generating the first n Fibonacci numbers F(n), printing ...
 
 # How to run:
 Call the function F() in Fib.py:
->> python -c 'import Fib; Fib.F(n)'
+python -c 'import Fib; Fib.F(n)'
 
 Example - To get F(8):
->> python -c 'import Fib; Fib.F(8)'
+python -c 'import Fib; Fib.F(8)'
 
 # How to test:
 To test the program:
-        >> python -m doctest -v Fib.py
+        python -m doctest -v Fib.py
         
-5 tests included in the set:
+5 tests included in the set
+
 1.
-        >>> FibonacciProgram(0)
+        F(0)
 
 2.
-        >>> FibonacciProgram(-3)
+        F(-3)
         'Invalid value, try again.'
 
 3.
-        >>> FibonacciProgram(5.2)
+        F(5.2)
         'Invalid value, try again.'
 
-4.      >>> FibonacciProgram(1)
+4.      F(1)
         0
 
-5.      >>> FibonacciProgram(10)
+5.      F(10)
         0
         1
         1
