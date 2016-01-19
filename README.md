@@ -25,7 +25,7 @@ To test the program doctest is used. From bash terminal:
 
         python -m doctest -v Fib.py
         
-5 tests included in the set
+5 tests included in the set:
 
 1.      > F(0)
 
